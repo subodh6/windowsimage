@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  quickbook.topic.recieve:
+    image: ${DOCKER_REGISTRY-}quickbooktopicrecieve
+    build:
+      context: .
+      dockerfile: Topic.Recieve/Dockerfile

@@ -1,0 +1,8 @@
+F:\QuickBook\QuickBookTopic\QuickBookTopic\Topic.Recieve\bin\Debug\netcoreapp2.2\Topic.Recieve.deps.json
+F:\QuickBook\QuickBookTopic\QuickBookTopic\Topic.Recieve\bin\Debug\netcoreapp2.2\Topic.Recieve.runtimeconfig.json
+F:\QuickBook\QuickBookTopic\QuickBookTopic\Topic.Recieve\bin\Debug\netcoreapp2.2\Topic.Recieve.runtimeconfig.dev.json
+F:\QuickBook\QuickBookTopic\QuickBookTopic\Topic.Recieve\bin\Debug\netcoreapp2.2\Topic.Recieve.dll
+F:\QuickBook\QuickBookTopic\QuickBookTopic\Topic.Recieve\obj\Debug\netcoreapp2.2\Topic.Recieve.csprojAssemblyReference.cache
+F:\QuickBook\QuickBookTopic\QuickBookTopic\Topic.Recieve\obj\Debug\netcoreapp2.2\Topic.Recieve.csproj.CoreCompileInputs.cache
+F:\QuickBook\QuickBookTopic\QuickBookTopic\Topic.Recieve\obj\Debug\netcoreapp2.2\Topic.Recieve.AssemblyInfoInputs.cache
+F:\QuickBook\QuickBookTopic\QuickBookTopic\Topic.Recieve\obj\Debug\netcoreapp2.2\Topic.Recieve.AssemblyInfo.cs

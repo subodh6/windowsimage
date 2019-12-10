@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  quickbook.topic.recieve:
+    image: quickbooktopicrecieve:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "QuickBook.Topic.Recieve"
+    #environment:
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_quickbook.topic.recieve$
+    volumes:
+      - C:\Users\subodh.chowdary\Desktop\QuickBookTopic\Topic.Recieve:/app
+      - C:\Users\subodh.chowdary\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_quickbook.topic.recieve$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_quickbook.topic.recieve$ \"bin/Debug/netcoreapp2.2/QuickBook.Topic.Recieve.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true

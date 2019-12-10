@@ -1,0 +1,7 @@
+services:
+  quickbook.topic.recieve:
+    build:
+      context: C:\Users\subodh.chowdary\Desktop\QuickBookTopic
+      dockerfile: Topic.Recieve/Dockerfile
+    image: quickbooktopicrecieve
+version: '3.4'
